@@ -112,47 +112,6 @@
                   </td>
                   <td><button onclick="remove(this)" class ="btn"><i class="bi bi-trash3-fill text-danger"></i></button></td>
                 </tr>
-                <tr id="table-tr">
-
-                  <td><input type="text" class="form-control" id="course-name" placeholder="Course Name"
-                      required></td>
-                  <td><input type="number" class="form-control" id="credits" placeholder="Credits"  required>
-                  </td>
-                  <td><input type="number" class="form-control" id="grade" placeholder="Grade" required>
-                  </td>
-                  <td><button  onclick="remove(this)" class="btn"><i class="bi bi-trash3-fill text-danger"></i></button></td>
-                </tr>
-                <tr id="table-tr">
-
-                  <td><input type="text" class="form-control" id="course-name" placeholder="Course Name"
-                      required></td>
-                  <td><input type="number" class="form-control" id="credits" placeholder="Credits"  required>
-                  </td>
-                  <td><input type="number" class="form-control" id="grade" placeholder="Grade" required>
-                  </td>
-                  <td><button  onclick="remove(this)" class="btn"><i class="bi bi-trash3-fill text-danger"></i></button></td>
-                </tr>
-                <tr id="table-tr">
-
-                  <td><input type="text" class="form-control" id="course-name" placeholder="Course Name"
-                      required></td>
-                  <td><input type="number" class="form-control" id="credits" placeholder="Credits"  required>
-                  </td>
-                  <td><input type="number" class="form-control" id="grade" placeholder="Grade" required>
-                  </td>
-                  <td><button  onclick="remove(this)" class="btn"><i class="bi bi-trash3-fill text-danger"></i></button></td>
-                </tr>
-                
-                <tr id="table-tr">
-
-                  <td><input type="text" class="form-control" id="course-name" placeholder="Course Name"
-                      required></td>
-                  <td><input type="number" class="form-control" id="credits" placeholder="Credits"  required>
-                  </td>
-                  <td><input type="number" class="form-control" id="grade" placeholder="Grade" required>
-                  </td>
-                  <td><button  onclick="remove(this)" class="btn"><i class="bi bi-trash3-fill text-danger"></i></button></td>
-                </tr>
               </tbody>
             </table>
             <div class="row">
@@ -191,7 +150,7 @@
             <div class="row">
               <div class="input-group col">
                 <span class="btn btn-outline-primary ">Your GPA</span>
-                <input type="text" class="form-control " placeholder="Your GPA" disabled>
+                <input type="text" id="res" class="form-control " placeholder="Your GPA" disabled>
               </div>
               <div class="input-group col ">
                 <span class="btn btn-outline-primary">Your Rank</span>
@@ -312,6 +271,11 @@
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
   <script src="/main.js"></script>
+  <script>
+    for (let i = 0 ; i < 4 ; i++){
+      add();
+    }
+  </script>
 </body>
 
 </html>
